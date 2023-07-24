@@ -3,62 +3,63 @@
 
 # C++ for Beginner
 
-Bu projede, yazılıma ve C++ diline yeni başlarken oluşturduğum temel algoritma problemi kodlarına yer verilmiştir. Kodlar, kolaydan zora doğru sıralanmış şekilde 10 farklı algoritma problemi ve 10 farklı Console Ekranı oyunu içermekte ve bu sayede yazılım becerileri basitten karmaşığa doğru geliştirip oyun programlama hakkında fikir vermektedir. Projede yer alan kodlar, hem temel C++ programlama yeteneklerini geliştirmeye yardımcı olmakta hem de algoritma düşüncesini kazandırmaktadır. Bu sayede, programlama becerileri ve problem çözme yetenekleri adım adım geliştirilerek, yazılım dünyasına daha donanımlı bir şekilde adım atılmaktadır.
+In this project, I present the basic algorithm problem codes I created while starting with software development and the C++ language. The codes include 10 different algorithm problems and 10 different Console Screen games, arranged from easy to difficult, allowing you to develop software skills and gain insight into game programming progressively. The codes in the project not only help improve fundamental C++ programming skills but also foster algorithmic thinking. As a result, programming skills and problem-solving abilities are developed step by step, enabling you to step into the world of software more proficiently.
 
-Projede yer alan temel algoritma problemleri, adım adım çözülerek yazılım becerilerini geliştirme fırsatı sunmaktadır. Bu kodları inceleyerek, C++ dilinin temel yapılarını ve algoritma tasarımını öğrenmek mümkündür. Ayrıca, problem çözme yetenekleri ve algoritma düşüncesi geliştirilerek, entelektüel kapasite artırılmaktadır.
+The fundamental algorithm problems included in the project offer the opportunity to improve software skills by solving them step by step. By examining these codes, you can learn the basic structures of C++ and algorithm design. Additionally, problem-solving skills and algorithmic thinking are enhanced, increasing intellectual capacity.
 
-Sonuç olarak, bu projede yer alan temel algoritma problemi kodları, yazılım dünyasına giriş yaparken programlama becerilerini ve algoritma düşüncesini geliştirmek için idealdir. Adım adım çözülen problemler, temel C++ diline hakimiyeti artırarak daha karmaşık yazılım projelerine daha fazla özgüvenle yaklaşmayı sağlar.
+In conclusion, the codes of the basic algorithm problems in this project are ideal for developing programming skills and algorithmic thinking when entering the world of software. Solving problems step by step enhances mastery of the fundamental C++ language and enables approaching more complex software projects with greater confidence.
 
-## Çıkarılan Dersler
+## Lessons Learned
 
 Bu algoritmaları inşa ederken, C++ programlama dilindeki temel becerilerimi geliştirme fırsatı buldum. Çeşitli zorluklarla karşılaştım, ancak hataları ayıklama tekniklerini kullanarak ve adım adım yaklaşımlarla bu sorunları çözmeyi öğrendim. Ayrıca, kodu modüler bir şekilde düzenlemenin ve fonksiyonlar arasında iletişim kurmanın önemini keşfettim. Bu projede kodları okunabilir ve anlaşılır hale getirmek için dokümantasyon ve yorumların önemini de kavradım. Tüm bu zorluklarla karşılaşarak, pratik yapmaya ve dış kaynakları kullanmaya özen göstererek kendimi geliştirdim.
 
-## Ekran Görüntüleri
+## Screenshots
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/beydah/images/main/images/BeydahGithubProjectScreen3.gif)
+![Screenshot](https://raw.githubusercontent.com/beydah/images/main/images/BeydahGithubProjectScreen3.gif)
 
-## Özellikler
+## Features
 
-#### 10 Temel Algoritma Klasöründen Seçtiklerim
+#### Selected from 10 Basic Algorithm Folders
    - Hello World
    - Enter Number
    - Number of Elements in Array
    - Largest Element in Array
    - Quicksort
 
-#### 10 Console Oyunu Klasöründen Seçtiklerim
+#### Selected from 10 Console Game Folders
    - Number Guessing
    - Rock Paper Scissors
    - Word Guessing
    - Puzzle Game
    - Console RPG
 
-## Kullanılan Teknoloji
+## Technology Used
 
-**Dil:** C, C++
+**Language:** C, C++
 
-## Bilgisayarınızda Çalıştırın
+## Running on Your Computer
 
-Projeyi klonlayın
+Clone the project
+
 
 ```bash
   git clone https://github.com/beydah/C-Kolay-Projeler.git
 ```
 
-Proje dizinine gidin
+Go to the project directory
 
 ```bash
   cd C-Kolay-Projeler
 ```
 
-## Geri Bildirim
+## Feedback
 
-Herhangi bir geri bildiriminiz varsa, lütfen info.beydahsaglam@gmail.com adresinden bana ulaşın.
+If you have any feedback, please contact me at info.beydahsaglam@gmail.com.
 
-## Yazar
+## Author
 
-- [@beydah](https://github.com/beydah) geliştirme.
+- [@beydah](https://github.com/beydah) - Development.
 
-## Lisans
+## License
 
-Bu projeler açık kaynaklıdır ve herhangi bir özel lisansa sahip değildir.
+These projects are open source and do not have any proprietary licenses.
