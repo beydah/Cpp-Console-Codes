@@ -1,5 +1,5 @@
 
-![Logo](https://raw.githubusercontent.com/beydah/images/main/images/BeydahGithubProjectBanner3.gif)
+![Logo](https://raw.githubusercontent.com/beydah/Cpp-Console-Codes/main/images/BeydahGithubProjectBanner.gif)
 
 # C++ for Beginner
 
@@ -15,7 +15,7 @@ Bu algoritmaları inşa ederken, C++ programlama dilindeki temel becerilerimi ge
 
 ## Screenshots
 
-![Screenshot](https://raw.githubusercontent.com/beydah/images/main/images/BeydahGithubProjectScreen3.gif)
+![Screenshot](https://raw.githubusercontent.com/beydah/Cpp-Console-Codes/main/images/BeydahGithubProjectScreen.gif)
 
 ## Features
 
