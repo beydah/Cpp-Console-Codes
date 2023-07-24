@@ -11,7 +11,7 @@ In conclusion, the codes of the basic algorithm problems in this project are ide
 
 ## Lessons Learned
 
-Bu algoritmaları inşa ederken, C++ programlama dilindeki temel becerilerimi geliştirme fırsatı buldum. Çeşitli zorluklarla karşılaştım, ancak hataları ayıklama tekniklerini kullanarak ve adım adım yaklaşımlarla bu sorunları çözmeyi öğrendim. Ayrıca, kodu modüler bir şekilde düzenlemenin ve fonksiyonlar arasında iletişim kurmanın önemini keşfettim. Bu projede kodları okunabilir ve anlaşılır hale getirmek için dokümantasyon ve yorumların önemini de kavradım. Tüm bu zorluklarla karşılaşarak, pratik yapmaya ve dış kaynakları kullanmaya özen göstererek kendimi geliştirdim.
+While building these algorithms, I had the opportunity to develop my fundamental skills in the C++ programming language. I encountered various challenges, but I learned to solve these problems using debugging techniques and step-by-step approaches. Moreover, I discovered the importance of organizing code in a modular way and communicating between functions. In this project, I also grasped the significance of documentation and comments to make the code readable and understandable. Confronting all these challenges, I improved myself by practicing and utilizing external resources.
 
 ## Screenshots
 
