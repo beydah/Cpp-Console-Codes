@@ -43,13 +43,13 @@ Clone the project
 
 
 ```bash
-  git clone https://github.com/beydah/C-Kolay-Projeler.git
+  git clone https://github.com/beydah/Cpp-Console-Codes.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd C-Kolay-Projeler
+  cd Cpp-Console-Codes
 ```
 
 ## Feedback
