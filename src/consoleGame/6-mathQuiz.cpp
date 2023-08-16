@@ -3,16 +3,26 @@ using namespace std;
 
 /*BASIT MATEMATIK QUIZI*/
 
+/*FONKSIYON 1*/
+
+/*FONKSIYON 2*/
+
+/*FONKSIYON 3*/
+
+/*FONKSIYON 4*/
+
+/*FONKSIYON 5*/
+
 int main()
 {
 	/*RANDOM VARIABLE*/
-	/*RANDOM ÝÞLEMLERÝ*/
+	/*RANDOM Ä°ÅžLEMLERÄ°*/
 	
 	/*MAIN VARIABLE*/
-	/*MAIN ÝÞLEMLERÝ*/
+	/*MAIN Ä°ÅžLEMLERÄ°*/
 	
-	/*QUÝZ VARÝABLE*/
-	/*QUÝZ ÝÞLEMLERÝ*/
+	/*QUÄ°Z VARÄ°ABLE*/
+	/*QUÄ°Z Ä°ÅžLEMLERÄ°*/
 	
 	do
 	{
