@@ -3,12 +3,14 @@
 #include <ctime>
 using namespace std;
 
-void output(int screen) {
+/*BASIT MATEMATIK QUIZI*/
+
+void output(int screen) 
+{
     if (screen == 0) {
         cout <<
         "=====================================\n"
-        "=   H E A D S -  O R  - T A I L S   =\n"
-        "============== G A M E ==============\n"
+        "=    M A T H - Q U I Z - G A M E    =\n"
         "=====================================\n"
         "= Author: Ilkay Beydah Saglam       =\n"
         "= Version: 0.0.1                    =\n"
@@ -16,12 +18,20 @@ void output(int screen) {
         "= Description: a Small Concole Game =\n"
         "=====================================\n"
         "\nPress any key and enter to start: ";
-    } else if (screen == 1) {
-        cout << 
-        "1- Start ($500)\n"
-        "2- Exit\n"
+    } 
+	
+	else if (screen == 1) 
+	{
+        cout <<
+        "\nMain Screen\n"
+        "1- Start\n"
+        "2- Setting\n"
+        "0- Exit\n"
         "\nEnter Your Choice: ";
-    } else if (screen == 2) {
+    } 
+	
+	else if (screen == 2) 
+	{
         cout << 
         "\n"
         "=====================\n"
@@ -29,9 +39,19 @@ void output(int screen) {
         "=====================\n"
         "\n";
     }
+    
+    else
+	{
+        cout <<
+        "\nSetting Screen\n"
+        "1- Set Difficulty\n"
+        "0- Back\n"
+        "\nEnter Your Choice: ";
+    }
 }
 
-void wrongOutput(int choiceLen) {
+void wrongOutput(int choiceLen) 
+{
     cout << "\nWrong Choice\n";
     
     if (choiceLen < 2) {
@@ -43,79 +63,219 @@ void wrongOutput(int choiceLen) {
     }
 }
 
-void screenClear() {
+void screenClear() 
+{
     cout << "\x1B[2J\x1B[H";    
 }
 
-int choiceFinder(int choice) {
-    if (choice < 1 || choice > 2) {
+int choiceFinder(int choice, int maxChoice) 
+{
+    if (choice < 0 || choice > maxChoice) 
+	{
         return 404;
-    } else {
+    } 
+	else
+	{
         return choice;
     }
 }
 
-string randomZar() {
-    int num = (rand() % 2) + 1;
-    
-    if(num == 1)
-    {
-    	return "Heads";
+int randomNum(int input) 
+{
+	int num;
+	
+	if(input == 0)
+	{
+		return num = (rand() % 3) + 1;
+	}
+	
+	else if(input == 1)
+	{
+		return num = (rand() % 8) + 2;
+	}
+	
+	else if(input == 2)
+	{
+		return num = (rand() % 88) + 12;
 	}
 	
 	else
 	{
-		return "Tails";
+		return num = (rand() % 98) + 102;
 	}
 }
 
-/*BASIT MATEMATIK QUIZI*/
-
-/*FONKSIYON 1*/
-
-/*FONKSIYON 2*/
-
-/*FONKSIYON 3*/
-
-/*FONKSIYON 4*/
-
-/*FONKSIYON 5*/
-
 int main()
 {
-	/*RANDOM VARIABLE*/
-	/*RANDOM İŞLEMLERİ*/
-	
 	/*MAIN VARIABLE*/
-	/*MAIN İŞLEMLERİ*/
+	int input, choice;
+	int maxChoice;
+	int choiceLen = 0;
+	string anyKey;
 	
-	/*QUİZ VARİABLE*/
-	/*QUİZ İŞLEMLERİ*/
+	/*QUIZ VARIABLE*/
+	int trueAnswer;
+	int inputAnswer;
+	int num1, num2, symbol;
+	int score = 0;
+	int question;
+	
+	/*SETTING VARIABLE*/
+	int difficulty = 1;
+	
+	output(0);
+	cin >> anyKey;
+	screenClear();
 	
 	do
 	{
+		maxChoice = 2;
+		question = 1;
+		
 		/*MAIN SCREEN*/
 		do
 		{
+			output(1);
+			cin >> input;
+			choice = choiceFinder(input, maxChoice);
 			
+			screenClear();
+			
+			if(choice == 404)
+			{
+				wrongOutput(choiceLen);
+				if(choiceLen == 3)
+				{
+					choice = 0;
+				}
+				choiceLen++;
+			}
 		}
-		while(0);
+		while(choice == 404);
+		choiceLen = 0;
+		
+		screenClear();
 		
 		/*QUIZ SCREEN*/
-		while(0)
+		while(choice == 1)
 		{
+			num1 = randomNum(difficulty);
+			symbol = randomNum(0);
+			num2 = randomNum(difficulty);
 			
+			cout << "Score: " << score << '\n';
+			
+			if(question > 10)
+			{
+				screenClear();
+				cout << "Congralations! Your Score: " << score << " - Your Correct Answer: " << score / 5 << '\n';
+				break;
+			}
+			
+			else
+			{
+				if(symbol == 1)
+				{
+					trueAnswer = num1 + num2;
+					
+					cout << "\nQuestion " << question << ":\n" << num1 << " + " << num2 << " = ?\n";
+					cout << "Enter Correct Answer: ";
+				}
+			
+				else if(symbol == 2)
+				{
+					trueAnswer = num1 - num2;
+					
+					cout << "\nQuestion " << question << ":\n" << num1 << " - " << num2 << " = ?\n";
+					cout << "Enter Correct Answer: ";
+				}
+			
+				else
+				{
+					trueAnswer = num1 * num2;	
+					
+					cout << "\nQuestion " << question << ":\n" << num1 << " x " << num2 << " = ?\n";
+					cout << "\nEnter Correct Answer: ";
+				}
+				
+				cin >> inputAnswer;
+				screenClear();
+				
+				if(inputAnswer == trueAnswer)
+				{
+					cout << "\nCorrect! It was\n";
+					score += 5;
+				}
+				
+				else
+				{
+					cout << "\nWrong. It wasnt\n";
+				}
+				
+				question++;
+			}
 		}
+		choiceLen = 0;
+		
+		screenClear();
 		
 		/*SETTINGS SCREEN*/
-		while(0)
+		while(choice == 2 || choice == 404)
 		{
+			output(3);
+			cin >> input;
+
+			maxChoice = 1;
+			choice = choiceFinder(input, maxChoice);
+
+			screenClear();
 			
+			if(choice == 404)
+			{
+				wrongOutput(choiceLen);
+				if(choiceLen == 3)
+				{
+					choice = 505;
+				}
+				choiceLen++;
+			}
+			
+			else if(choice == 1)
+			{
+				cout << "\nLevel Difficulty Screen\nEnter New Difficulty Level (Between 1 - 3): ";
+				
+				cin >> input;
+
+				maxChoice = 3;
+				choice = choiceFinder(input, maxChoice);
+
+				screenClear();
+			
+				if(choice == 404 || choice == 0)
+				{
+					cout << "\nWrong Choice\n";
+					choice = 2;
+				}
+				
+				else
+				{
+					difficulty = choice;
+					cout << "\nNew Difficulty Level: " << difficulty << '\n';
+					choice = 2;
+				}
+			}
+			
+			else
+			{
+				choice = 505;
+			}
 		}
+		choiceLen = 0;
 	}
-	while(0);
+	while(choice != 0);
 	
-	/*EXIT SCREEN*/
+	screenClear();
+	output(2);
 	
 	return 0;
 }
