@@ -31,7 +31,7 @@ While building these algorithms, I had the opportunity to develop my fundamental
    - Rock Paper Scissors
    - Word Guessing
    - Puzzle Game
-   - Console RPG
+   - Scores Guessing
 
 ## Technology Used
 
