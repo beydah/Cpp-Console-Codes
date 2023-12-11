@@ -1,65 +1,102 @@
+# 20 Algorithmic Problems and Small Console Games in the C++ Language
 
-![Logo](https://raw.githubusercontent.com/beydah/Cpp-Console-Codes/main/images/BeydahGithubProjectBanner.gif)
+## Developer Information
 
-# C++ for Beginner
+This project has been created and developed by Beydah Sağlam. To contact Beydah Saglam, please send an email to [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com).
 
-In this project, I present the basic algorithm problem codes I created while starting with software development and the C++ language. The codes include 10 different algorithm problems and 10 different Console Screen games, arranged from easy to difficult, allowing you to develop software skills and gain insight into game programming progressively. The codes in the project not only help improve fundamental C++ programming skills but also foster algorithmic thinking. As a result, programming skills and problem-solving abilities are developed step by step, enabling you to step into the world of software more proficiently.
+To provide free support to the developer, you can follow the author on <a href="https://github.com/beydah" target="blank">github/beydah</a>.
 
-The fundamental algorithm problems included in the project offer the opportunity to improve software skills by solving them step by step. By examining these codes, you can learn the basic structures of C++ and algorithm design. Additionally, problem-solving skills and algorithmic thinking are enhanced, increasing intellectual capacity.
+To support the project for free, you can star the project.
 
-In conclusion, the codes of the basic algorithm problems in this project are ideal for developing programming skills and algorithmic thinking when entering the world of software. Solving problems step by step enhances mastery of the fundamental C++ language and enables approaching more complex software projects with greater confidence.
+<div style="text-align:center;">
+    <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
+</div>
 
-## Lessons Learned
+## Repository Information
 
-While building these algorithms, I had the opportunity to develop my fundamental skills in the C++ programming language. I encountered various challenges, but I learned to solve these problems using debugging techniques and step-by-step approaches. Moreover, I discovered the importance of organizing code in a modular way and communicating between functions. In this project, I also grasped the significance of documentation and comments to make the code readable and understandable. Confronting all these challenges, I improved myself by practicing and utilizing external resources.
+This repository holds Cpp-based algorithm solutions I crafted during my early programming journey. I prioritized clean code and aimed to develop algorithms thoughtfully. You'll find solutions for diverse problems, from basics like printing 'hello world' in Cpp to more complex tasks involving pointers, memory access with void pointers, sorting algorithms, binary to decimal conversions, and file reading operations.
 
-## Screenshots
+<div style="text-align:center;">
+    <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
+</div>
 
-![Screenshot](https://raw.githubusercontent.com/beydah/Cpp-Console-Codes/main/images/BeydahGithubProjectScreen.gif)
+## Usage Information
 
-## Features
+If you find these algorithms useful, feel free to utilize them according to your needs. You are welcome to enhance, modify, or use them as valuable learning materials. Adapt them to suit your requirements and learning objectives without any restrictions.
 
-#### Selected from 10 Basic Algorithm Folders
-   - Hello World
-   - Enter Number
-   - Number of Elements in Array
-   - Largest Element in Array
-   - Quicksort
+<div style="text-align:center;">
+    <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
+</div>
 
-#### Selected from 10 Console Game Folders
-   - Number Guessing
-   - Rock Paper Scissors
-   - Word Guessing
-   - Puzzle Game
-   - Scores Guessing
+## Solutions Inside the File
 
-## Technology Used
+<details>
+  <summary><h3>Beginner (A1): Introduction to fundamental programming concepts</h3></summary>
+  <ol>
+    <li>Hello World</li>
+    <li>Check Even</li>
+    <li>Fibonacci Series</li>
+    <li>Prime Series</li>
+    <li>Other...</li>
+  </ol>
+</details>
 
-**Language:** C, C++
+<details>
+  <summary><h3>Beginner (A2): Building on basic programming skills</h3></summary>
+    <ol>
+    <li>Multiplication Table</li>
+    <li>is Prime</li>
+    <li>Two Number GCD</li>
+    <li>Two Number LCM</li>
+    <li>Other...</li>
+  </ol>
+</details>
 
-## Running on Your Computer
+<details>
+  <summary><h3>Intermediate (B1): Progressing to intermediate-level programming concepts</h3></summary>
+    <ol>
+    <li>Size of Types</li>
+    <li>Binary To Decimal</li>
+    <li>Decimal To Hexadecimal</li>
+    <li>ASCII Number</li>
+    <li>Other...</li>
+  </ol>
+</details>
 
-Clone the project
+<details>
+  <summary><h3>Intermediate (B2): Delving into more advanced topics within the intermediate level</h3></summary>
+    <ol>
+    <li>Array Length</li>
+    <li>Array Sum</li>
+    <li>Pointer Address</li>
+    <li>Data Address</li>
+    <li>Other...</li>
+  </ol>
+</details>
 
+<details>
+  <summary><h3>Advanced (C1): Venturing into advanced programming challenges</h3></summary>
+    <ol>
+    <li>Reverse With Pointer</li>
+    <li>Bubble Sort</li>
+    <li>Quick Sort</li>
+    <li>File Reader</li>
+    <li>Other...</li>
+  </ol>
+</details>
 
-```bash
-  git clone https://github.com/beydah/Cpp-Console-Codes.git
-```
+<div style="text-align:center;">
+    <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
+</div>
 
-Go to the project directory
+## Download Information
 
-```bash
-  cd Cpp-Console-Codes
-```
+You have the option to download all algorithm solutions effortlessly by clicking on the provided button or link below. Feel free to access and utilize these solutions for your programming needs. Whether you're looking to study, enhance, or implement them into your projects, the choice is yours. Click the button/link below to access the comprehensive set of algorithmic solutions.
 
-## Feedback
+[v Click For Download To C and Algorithm v](https://github.com/beydah/C-and-Algorithm/archive/refs/heads/main.zip)
 
-If you have any feedback, please contact me at info.beydahsaglam@gmail.com.
-
-## Author
-
-- [@beydah](https://github.com/beydah) - Development.
-
-## License
-
-These projects are open source and do not have any proprietary licenses.
+<div>
+    <a href="https://github.com/beydah/C-and-Algorithm/archive/refs/heads/main.zip">
+        <img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_focus.png" height="50">
+    </a>
+</div>
