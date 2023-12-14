@@ -14,7 +14,7 @@ To support the project for free, you can star the project.
 
 ## Repository Information
 
-This repository holds Cpp-based algorithm solutions I crafted during my early programming journey. I prioritized clean code and aimed to develop algorithms thoughtfully. You'll find solutions for diverse problems, from basics like printing 'hello world' in Cpp to more complex tasks involving pointers, memory access with void pointers, sorting algorithms, binary to decimal conversions, and file reading operations.
+This repository contains C++-based algorithm solutions crafted during my early programming journey. I prioritized clean code and endeavored to develop algorithms thoughtfully. Here, you will find solutions for various problems, starting from printing 'hello world' in C++, to sorting algorithms, gcd and lcm calculations, sound guessing games, and word guessing games.
 
 <div style="text-align:center;">
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
@@ -31,21 +31,10 @@ If you find these algorithms useful, feel free to utilize them according to your
 ## Solutions Inside the File
 
 <details>
-  <summary><h3>Beginner (A1): Introduction to fundamental programming concepts</h3></summary>
-  <ol>
-    <li>Hello World</li>
-    <li>Check Even</li>
-    <li>Fibonacci Series</li>
-    <li>Prime Series</li>
-    <li>Other...</li>
-  </ol>
-</details>
-
-<details>
   <summary><h3>Beginner (A2): Building on basic programming skills</h3></summary>
     <ol>
-    <li>Multiplication Table</li>
-    <li>is Prime</li>
+    <li>Binary to Decimal</li>
+    <li>Decimal to Hexadecimal</li>
     <li>Two Number GCD</li>
     <li>Two Number LCM</li>
     <li>Other...</li>
@@ -53,34 +42,12 @@ If you find these algorithms useful, feel free to utilize them according to your
 </details>
 
 <details>
-  <summary><h3>Intermediate (B1): Progressing to intermediate-level programming concepts</h3></summary>
+  <summary><h3>Intermediate (B1): Console game development skills</h3></summary>
     <ol>
-    <li>Size of Types</li>
-    <li>Binary To Decimal</li>
-    <li>Decimal To Hexadecimal</li>
-    <li>ASCII Number</li>
-    <li>Other...</li>
-  </ol>
-</details>
-
-<details>
-  <summary><h3>Intermediate (B2): Delving into more advanced topics within the intermediate level</h3></summary>
-    <ol>
-    <li>Array Length</li>
-    <li>Array Sum</li>
-    <li>Pointer Address</li>
-    <li>Data Address</li>
-    <li>Other...</li>
-  </ol>
-</details>
-
-<details>
-  <summary><h3>Advanced (C1): Venturing into advanced programming challenges</h3></summary>
-    <ol>
-    <li>Reverse With Pointer</li>
-    <li>Bubble Sort</li>
-    <li>Quick Sort</li>
-    <li>File Reader</li>
+    <li>Which Sound</li>
+    <li>Word Guessing</li>
+    <li>Word Sorting</li>
+    <li>Rock Paper Game</li>
     <li>Other...</li>
   </ol>
 </details>
@@ -93,10 +60,10 @@ If you find these algorithms useful, feel free to utilize them according to your
 
 You have the option to download all algorithm solutions effortlessly by clicking on the provided button or link below. Feel free to access and utilize these solutions for your programming needs. Whether you're looking to study, enhance, or implement them into your projects, the choice is yours. Click the button/link below to access the comprehensive set of algorithmic solutions.
 
-[v Click For Download To C and Algorithm v](https://github.com/beydah/C-and-Algorithm/archive/refs/heads/main.zip)
+[v Click For Download To Cpp and Game v](https://github.com/beydah/Cpp-and-Game/archive/refs/heads/main.zip)
 
 <div>
-    <a href="https://github.com/beydah/C-and-Algorithm/archive/refs/heads/main.zip">
+    <a href="https://github.com/beydah/Cpp-and-Game/archive/refs/heads/main.zip">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_focus.png" height="50">
     </a>
 </div>
